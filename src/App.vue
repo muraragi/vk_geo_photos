@@ -1,23 +1,16 @@
 <template>
-  <div id="app" class="container">
-    <coordinates-input></coordinates-input>
-  </div>
+  <v-app>
+    <geo-photos></geo-photos>
+  </v-app>
 </template>
 
 <script>
-import CoordinatesInput from './components/CoordinatesInput.vue'
+import GeoPhotos from './components/GeoPhotos.vue'
 
 export default {
   name: 'App',
   components: {
-    CoordinatesInput
-  },
-  data() {
-    return {
-      coordinates: null
-    }
+    GeoPhotos
   }
 }
 </script>
-
-<style lang="scss"></style>
