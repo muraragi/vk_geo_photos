@@ -9,7 +9,7 @@ Vue.use(VueMasonry)
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyB8QHEhbdeyWATvBCo-GmMH9R-TAI7wpyw'
+    key: process.env.VUE_APP_GOOGLE_KEY
   },
   installComponents: true
 })
