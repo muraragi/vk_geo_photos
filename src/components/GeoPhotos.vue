@@ -42,7 +42,7 @@ export default {
     getPhotos() {
       this.loading = true
       jsonp(
-        'https://api.vk.com/method/photos.search?v=5.80&access_token=' +
+        'https://api.vk.com/method/photos.search?v=5.80&radius=800&access_token=' +
           config.apikey +
           '&lat=' +
           this.coordinates.lat +
