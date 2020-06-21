@@ -32,6 +32,7 @@ export default {
     coordinates(newValue) {
       if (newValue) {
         this.getPhotos()
+        console.log()
       }
     }
   },
